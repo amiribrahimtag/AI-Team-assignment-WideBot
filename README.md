@@ -9,6 +9,7 @@ __Training process__
 3. Data Exploration
 
 4. Data Preprocessing
+
 * Created a regular expression pattern that matches any non-Arabic letter then replaced any non-Arabic letters in the "text" column with an empty string
 * Removed Arabic punctuation
 * Replaced any 2 or more spaces with 1 space
@@ -21,13 +22,13 @@ __Training process__
 * Provided insights for Task 2
 [ number of examples per class, top frequent n-grams generally and per class, lengths of examples in words and letters ] 
   
-7. Modeling
+6. Modeling
 
 * Splitted the data into 80/20
 * Used TfidfVectorizer to convert the text data into numerical features that can be used as input to a machine learning model for classification.
 * Used LinearSVC un-tuned once and with GridSearchCV once and picked the better once to interpret it's results
 
-8. Final Results
+7. Final Results
 
 * __art-et-culture > Class 1:__ Precision=0.86, Recall=0.87, F1-score=0.86
 * __economie > Class 2:__ Precision=0.85, Recall=0.93, F1-score=0.89
