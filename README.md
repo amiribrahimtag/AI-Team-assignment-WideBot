@@ -26,7 +26,7 @@ __Training process__
 
 * Splitted the data into 80/20
 * Used TfidfVectorizer to convert the text data into numerical features that can be used as input to a machine learning model for classification.
-* Used LinearSVC un-tuned once and with GridSearchCV once and picked the better once to interpret it's results
+* Used LinearSVC un-tuned once and with GridSearchCV once and picked the better one to interpret it's results
 
 7. Final Results
 
